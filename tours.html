@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Grande Terraza — Renta de Terraza con Alberca para Eventos en San José el Verde</title>
+  <meta name="description" content="Renta de terraza con alberca climatizada para cumpleaños, bodas, reuniones familiares y eventos empresariales en Col. San José el Verde. Incluye mesas, sillas, cocina, asador, billar y futbolito. Cotiza por WhatsApp.">
+  <meta name="keywords" content="renta de terraza para eventos, salón con alberca para fiestas, renta de alberca climatizada, terraza para bodas, renta de espacio para fiestas San José el Verde, alberca para eventos">
+  <meta property="og:title" content="Casa Grande Terraza — Tu Espacio para Celebrar en Grande">
+  <meta property="og:description" content="Terraza techada con alberca climatizada, zona de juegos y todo lo necesario para tu próximo evento. Capacidad hasta 50 personas.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/alberca-cascada-dia.jpeg">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23181510'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-weight='700' font-size='54' fill='%23c9a15a' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-logo">
+    <div class="ld-drops">
+      <span class="ld-drop"></span>
+      <span class="ld-drop"></span>
+      <span class="ld-drop"></span>
+    </div>
+    <div class="ld-brand">
+      <p class="ld-name">Casa Grande Terraza</p>
+      <p class="ld-tag">Tu espacio para celebrar en grande</p>
+    </div>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="Casa Grande Terraza">
+      <span class="logo-badge">
+        <img src="imagenes/logo-casa-grande-terraza.jpeg" alt="Casa Grande Terraza" loading="eager">
+      </span>
+      <div class="logo-word">CASA GRANDE <em>TERRAZA</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#flotilla">Instalaciones</a></li>
+      <li><a href="#paquetes">Paquetes</a></li>
+      <li><a href="#contact" class="nav-cta">Cotizar Ahora</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#flotilla">Instalaciones</a>
+  <a href="#paquetes">Paquetes</a>
+  <a href="#contact">Cotizar Ahora</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="imagenes/terraza-alberca-vista-dia.jpeg" alt="Vista general de la terraza techada y la alberca de Casa Grande Terraza" loading="eager">
+  </div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Casa Grande Terraza · Col. San José el Verde</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">El Escenario Perfecto</span></span>
+        <span class="h1-line"><span class="h1-inner">para Celebraciones</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner"><span class="accent-cycle" id="accentCycle">Inolvidables</span></span></span>
+      </h1>
+      <p class="hero-p">
+        Alberca climatizada, terraza techada y zona de juegos en un solo espacio. Rentas el lugar completo para tu grupo — nosotros ponemos las instalaciones, tú pones la fiesta.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/523321337487?text=Hola%2C%20me%20interesa%20cotizar%20un%20evento%20en%20Casa%20Grande%20Terraza" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar Cotización
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#flotilla" class="btn-secondary">Ver Instalaciones</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Cifras clave">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="50" data-prefix="+" data-suffix="">+0</span>
+          <span class="stat-lbl">Personas de capacidad</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="9" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Horas de servicio</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Climatizada</span>
+          <span class="stat-lbl">Alberca todo el año</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">San José el Verde</span>
+          <span class="stat-lbl">Ubicación</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-beam"></div>
+  </div>
+  <div class="hero-scroll-cue" aria-hidden="true">
+    <svg width="22" height="34" viewBox="0 0 22 34" fill="none">
+      <rect x="1" y="1" width="20" height="32" rx="10" stroke="rgba(255,255,255,.25)" stroke-width="1.5"/>
+      <circle class="mouse-dot" cx="11" cy="9" r="3" fill="rgba(255,255,255,.55)"/>
+    </svg>
+    <span class="scroll-label">Scroll</span>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Tu espacio para celebrar en grande</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Ocasiones que atendemos">
+  <div class="wrap">
+    <div class="trust-row">
+      <p class="trust-label">Ideal para</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Cumpleaños</span>
+        <span class="trust-chip">Bodas y XV Años</span>
+        <span class="trust-chip">Reuniones Familiares</span>
+        <span class="trust-chip">Eventos Empresariales</span>
+        <span class="trust-chip">Bautizos y Graduaciones</span>
+        <span class="trust-chip">Posadas y Despedidas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img
+            src="imagenes/alberca-cascada-dia.jpeg"
+            alt="Alberca climatizada con cascada de Casa Grande Terraza" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">+50</p>
+          <p class="a-lbl">Personas de capacidad</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading">Un Espacio Pensado para Celebrar en Grande</h2>
+        <p>Casa Grande Terraza es un espacio multifuncional para eventos en Col. San José el Verde, con alberca climatizada y todas las facilidades para que tu celebración salga como la imaginaste. Terraza techada, mesas y sillas, zona de billar y futbolito, cocina equipada y área de asador: todo listo para recibir a tu grupo.</p>
+        <p>Está pensado para familias, grupos de amigos y empresas que buscan un lugar exclusivo para festejar una ocasión especial, con la comodidad de tener todo en un mismo sitio y la atención al detalle que hace la diferencia frente a otras opciones.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="50" data-prefix="+" data-suffix=""></p>
+            <p class="a-stat-l">Capacidad máxima</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="9" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Horas de servicio (límite 9:00 p.m.)</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Sí</p>
+            <p class="a-stat-l">Alberca climatizada</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">S.J. Verde</p>
+            <p class="a-stat-l">Col. San José el Verde</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Lo que incluye</p>
+      <h2 class="heading">Todo lo que Necesitas para tu Evento</h2>
+      <p class="sub">Un espacio completo pensado para que tú solo te preocupes por disfrutar la fiesta.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1e93a8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 17c1.5 1.2 3 1.2 4.5 0s3-1.2 4.5 0 3 1.2 4.5 0 3-1.2 4.5 0"/>
+            <path d="M2 21c1.5 1.2 3 1.2 4.5 0s3-1.2 4.5 0 3 1.2 4.5 0 3-1.2 4.5 0"/>
+            <path d="M7 13V4a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v9"/>
+            <path d="M15 13V7a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6"/>
+          </svg>
+        </div>
+        <h3>Alberca Climatizada</h3>
+        <p>Disfruta el agua a temperatura agradable durante todo el año, con cascada y áreas de descanso alrededor para toda la familia.</p>
+        <div class="svc-tags">
+          <span class="tag tag-b">Climatizada</span>
+          <span class="tag tag-b">Todo el año</span>
+          <span class="tag tag-b">Con cascada</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <div class="svc-icon ic-green">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
+          </svg>
+        </div>
+        <h3>Entretenimiento sin Parar</h3>
+        <p>Mesa de billar, futbolito, pantalla y bocina para que la diversión no pare, sin importar la edad de tus invitados.</p>
+        <div class="svc-tags">
+          <span class="tag tag-g">Mesa de billar</span>
+          <span class="tag tag-g">Futbolito</span>
+          <span class="tag tag-g">Pantalla y sonido</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <div class="svc-icon ic-slate">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4A4038" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 3v18h18"/>
+            <path d="M7 14l4-4 3 3 5-6"/>
+            <rect x="3" y="17" width="18" height="4" rx="1"/>
+          </svg>
+        </div>
+        <h3>Cocina y Zona de Asador</h3>
+        <p>Cocina equipada, barra de servicio, asador, refrigerador y wifi para que la logística de la comida y las bebidas sea lo más fácil de tu evento.</p>
+        <div class="svc-tags">
+          <span class="tag">Asador</span>
+          <span class="tag">Barra de servicio</span>
+          <span class="tag">WiFi</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INSTALACIONES -->
+<section id="flotilla" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header">
+      <div>
+        <p class="eyebrow">Nuestras Instalaciones</p>
+        <h2 class="heading">Conoce el Espacio Antes de tu Evento</h2>
+      </div>
+      <a href="#contact" class="btn-outline rev">Solicitar Cotización</a>
+    </div>
+    <div class="prod-grid">
+
+      <div class="prod-card rev d1">
+        <div class="prod-photo">
+          <img src="imagenes/alberca-juegos-vista-dia.jpeg" alt="Zona de alberca con mesa de billar y futbolito bajo sombrilla en Casa Grande Terraza" loading="lazy">
+        </div>
+        <h3>Tardes Junto a la Alberca</h3>
+        <p>El billar y el futbolito quedan a un paso del agua, para que la diversión no se detenga.</p>
+        <span class="prod-pill">Alberca y juegos</span>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="prod-photo">
+          <img src="imagenes/terraza-techada-dia.jpeg" alt="Terraza techada con mesas, sillas y pantalla en Casa Grande Terraza" loading="lazy">
+        </div>
+        <h3>Terraza Techada</h3>
+        <p>Área techada con mesas y sillas para todo el grupo, pantalla y clima agradable llueva o haga sol.</p>
+        <span class="prod-pill">Hasta 50 personas</span>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="prod-photo">
+          <img src="imagenes/billar-futbolito-alberca-dia.jpeg" alt="Zona de juegos con mesa de billar y futbolito junto a la alberca" loading="lazy">
+        </div>
+        <h3>Zona de Juegos</h3>
+        <p>Mesa de billar y futbolito a un costado de la alberca, para que la diversión siga dentro y fuera del agua.</p>
+        <span class="prod-pill">Billar y futbolito</span>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="prod-photo">
+          <img src="imagenes/ambiente-neon-terraza.jpeg" alt="Terraza de Casa Grande Terraza con iluminación ambiental nocturna" loading="lazy">
+        </div>
+        <h3>Ambiente Nocturno</h3>
+        <p>Iluminación ambiental que transforma la terraza para que tu evento se extienda hasta la noche.</p>
+        <span class="prod-pill">Iluminación ambiental</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PAQUETES / PRECIOS -->
+<section id="paquetes" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Paquetes y Precios</p>
+      <h2 class="heading">Elige el Paquete para tu Grupo</h2>
+      <p class="sub">Todos los paquetes incluyen alberca climatizada, mesas y sillas, cocina, asador, billar, futbolito, wifi y 9 horas de servicio (horario límite 9:00 p.m.).</p>
+    </div>
+    <div class="pkg-grid">
+
+      <div class="pkg-card rev d1">
+        <p class="pkg-cap">30 Personas</p>
+        <p class="pkg-price">$3,500</p>
+        <ul class="pkg-list">
+          <li>Alberca climatizada</li>
+          <li>Mesas y sillas</li>
+          <li>Cocina, asador y barra</li>
+          <li>Billar y futbolito</li>
+          <li>9 horas de servicio</li>
+        </ul>
+        <a href="https://wa.me/523321337487?text=Hola%2C%20me%20interesa%20el%20paquete%20de%2030%20personas%20de%20Casa%20Grande%20Terraza" target="_blank" rel="noopener noreferrer" class="btn-outline">Cotizar este Paquete</a>
+      </div>
+
+      <div class="pkg-card pkg-card--featured rev d2">
+        <p class="pkg-tag">Más solicitado</p>
+        <p class="pkg-cap">40 Personas</p>
+        <p class="pkg-price">$4,000</p>
+        <ul class="pkg-list">
+          <li>Alberca climatizada</li>
+          <li>Mesas y sillas</li>
+          <li>Cocina, asador y barra</li>
+          <li>Billar y futbolito</li>
+          <li>9 horas de servicio</li>
+        </ul>
+        <a href="https://wa.me/523321337487?text=Hola%2C%20me%20interesa%20el%20paquete%20de%2040%20personas%20de%20Casa%20Grande%20Terraza" target="_blank" rel="noopener noreferrer" class="btn-primary">Cotizar este Paquete</a>
+      </div>
+
+      <div class="pkg-card rev d3">
+        <p class="pkg-cap">50 Personas</p>
+        <p class="pkg-price">$4,500</p>
+        <ul class="pkg-list">
+          <li>Alberca climatizada</li>
+          <li>Mesas y sillas</li>
+          <li>Cocina, asador y barra</li>
+          <li>Billar y futbolito</li>
+          <li>9 horas de servicio</li>
+        </ul>
+        <a href="https://wa.me/523321337487?text=Hola%2C%20me%20interesa%20el%20paquete%20de%2050%20personas%20de%20Casa%20Grande%20Terraza" target="_blank" rel="noopener noreferrer" class="btn-outline">Cotizar este Paquete</a>
+      </div>
+
+    </div>
+    <p class="pkg-note rev">¿Tu grupo es diferente? Escríbenos por WhatsApp y armamos un paquete a la medida.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img
+            src="imagenes/alberca-noche-familia.jpeg"
+            alt="Familia disfrutando la alberca climatizada de Casa Grande Terraza por la noche" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">100%</p>
+          <p class="wib-l">Espacio exclusivo para ti</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white">La Diferencia Casa Grande Terraza</h2>
+        <p class="sub sub--white">Un espacio pensado para que la logística de tu evento deje de ser tu problema.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <div class="ben-icon ben-icon-b">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Espacio Exclusivo para tu Evento</h4>
+              <p>Rentas la terraza completa: alberca, zona de juegos y área techada solo para tu grupo, sin compartir con otros eventos.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#e3c589" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Todo lo que Necesitas, Incluido</h4>
+              <p>Mesas, sillas, cocina, asador, barra de servicio, wifi y sonido — te olvidas de la logística y te enfocas en festejar.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-b">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Ambiente que se Adapta a Ti</h4>
+              <p>De tardes familiares junto a la alberca a noches con iluminación ambiental: la terraza se transforma según tu celebración.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-w">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Atención al Detalle</h4>
+              <p>Cuidamos cada aspecto del espacio, desde la limpieza hasta el mantenimiento de la alberca, para que tu evento sea una experiencia memorable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="numbers">
+  <div class="wrap">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Cómo funciona</p>
+      <h2 class="heading">Reserva tu Evento en 4 Pasos</h2>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">01</p>
+        <p class="num-l">Contáctanos por WhatsApp y cuéntanos la fecha y el número de invitados</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">02</p>
+        <p class="num-l">Elige el paquete que se ajuste a tu grupo: 30, 40 o 50 personas</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">03</p>
+        <p class="num-l">Confirmamos y apartamos la fecha de tu evento</p>
+      </div>
+      <div class="number-item rev d4">
+        <p class="num-v">04</p>
+        <p class="num-l">Llegas y disfrutas — nosotros nos encargamos del espacio</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Momentos Reales</p>
+      <h2 class="heading heading--white">Así se Vive Casa Grande Terraza</h2>
+      <p class="brands-sub">Familias y grupos disfrutando el espacio en eventos reales.</p>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/evento-noche-alberca.jpeg" alt="Grupo de invitados disfrutando un evento nocturno en Casa Grande Terraza" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/juegos-neon-noche.jpeg" alt="Invitados jugando futbolito por la noche en Casa Grande Terraza" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/fiesta-nocturna-jardin.jpeg" alt="Evento nocturno junto a la alberca en Casa Grande Terraza" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/comedor-techado.jpeg" alt="Área de comedor techada con mesas listas para un evento" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <p class="brands-note rev">Cada evento, una celebración a la medida de tu grupo</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info rev from-l">
+        <p class="eyebrow">Contáctanos</p>
+        <h2 class="heading">Cotiza tu Evento</h2>
+        <p class="sub" style="margin-bottom:36px">Cuéntanos la fecha, cuántos son y qué festejan — te respondemos con una propuesta clara por WhatsApp.</p>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">WhatsApp</p>
+            <p class="c-value"><a href="https://wa.me/523321337487" target="_blank" rel="noopener noreferrer">33 2133 7487</a></p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">Ubicación</p>
+            <p class="c-value">Calle Santa María #69, Col. San José el Verde</p>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a15a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <p class="c-label">Horario de servicio</p>
+            <p class="c-value">9 horas por evento (horario límite 9:00 p.m.)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Cotización</h3>
+          <p class="form-sub">Te respondemos a la brevedad por WhatsApp.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Su nombre completo" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="Su número de contacto" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="ffe">Fecha del evento *</label>
+                <input class="fi" type="date" id="ffe" name="fecha_evento" required>
+              </div>
+              <div class="fg">
+                <label class="fl" for="fp">Número de invitados *</label>
+                <select class="fi" id="fp" name="invitados" required>
+                  <option value="">Seleccione un paquete</option>
+                  <option value="30 personas">30 personas</option>
+                  <option value="40 personas">40 personas</option>
+                  <option value="50 personas">50 personas</option>
+                  <option value="Otro">Otro número de invitados</option>
+                </select>
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Tipo de evento *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Seleccione el tipo de evento</option>
+                <option value="Cumpleaños">Cumpleaños</option>
+                <option value="Boda o XV años">Boda o XV años</option>
+                <option value="Reunión familiar">Reunión familiar</option>
+                <option value="Evento empresarial">Evento empresarial</option>
+                <option value="Bautizo o graduación">Bautizo o graduación</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Comentarios adicionales</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="3" placeholder="Detalles del evento u otra información que debamos saber..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <span class="logo-badge" aria-hidden="true">
+            <img src="imagenes/logo-casa-grande-terraza.jpeg" alt="" loading="lazy">
+          </span>
+          <div class="logo-word">CASA GRANDE <em>TERRAZA</em></div>
+        </div>
+        <p class="foot-desc">Renta de terraza con alberca climatizada en Col. San José el Verde. Cumpleaños, bodas, reuniones familiares y eventos empresariales con todo incluido.</p>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Alberca Climatizada</a></li>
+          <li><a href="#services">Entretenimiento</a></li>
+          <li><a href="#services">Cocina y Asador</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Instalaciones</p>
+        <ul class="foot-links">
+          <li><a href="#flotilla">Alberca con Cascada</a></li>
+          <li><a href="#flotilla">Terraza Techada</a></li>
+          <li><a href="#flotilla">Zona de Juegos</a></li>
+          <li><a href="#paquetes">Ver Paquetes y Precios</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="https://wa.me/523321337487" target="_blank" rel="noopener noreferrer">33 2133 7487</a></li>
+          <li>Calle Santa María #69, Col. San José el Verde</li>
+          <li><a href="#contact">Cotizar Evento</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Casa Grande Terraza</span>. Todos los derechos reservados.</p>
+      <p>Calle Santa María #69, Col. San José el Verde</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div class="wa-float">
+  <span class="wa-tip">Escríbenos por WhatsApp</span>
+  <a href="https://wa.me/523321337487"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="wa-btn"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+      <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
